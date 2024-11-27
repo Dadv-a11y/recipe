@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "outfit";
+    src: url("../assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: " young-serif", serif ;
+    src: url("../assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
+body{
+    background-color:   hsl(30, 18%, 87%) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "outfit";
+}
+h1,h2,h3{
+    font-family:" young-serif";
+}
+
+img{
+    width: 100%;
+    border-radius: 20px;
+}
+ p{
+    font-size : 16px;
+    color:  hsl(30, 10%, 34%);
+}
+ .Recipe{
+    border: hsl(0, 0%, 100%) solid;
+    background-color: hsl(0, 0%, 100%) ;
+    width: 600px; 
+    padding: 20px;
+    border-radius: 20px;
+}
+h3{
+   color:  hsl(332, 51%, 32%);
+}
+
+ p+div {
+    background-color: hsl(330, 100%, 98%);
+    padding: 5px;
+}
+ h2+ul , h2+ol {
+    border-bottom:hsl(30, 18%, 87%) solid ;
+    padding-bottom: 5% ;
+ }
+ul,ol {
+    color:  hsl(14, 45%, 36%);
+    padding-left: 15px;
+}
+li span{
+    color:hsl(30, 10%, 34%) ;
+}
+li{
+    padding-bottom: 10px;
+}
+h2 , td span {
+    color:  hsl(14, 45%, 36%);
+}
+strong{
+    color:  hsl(24, 5%, 18%);
+}
+ ul li , ol li {
+    padding-left: 10px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+td {
+    border-bottom:hsl(30, 18%, 87%) solid ;
+    padding: 10px;
+}
+@media screen and (max-width:1024px){
+    
+    body{
+        width: 80%;
+        padding: 30px;
+    }
+    .Recipe{
+        width: 90%;
+        margin: 0;
+    }
+    .attribution{
+        display: none;
+    }
+}
